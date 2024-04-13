@@ -92,14 +92,14 @@ function Patrick () {
 
 }
 
-// function iLoveMath (){
-//     CreateTextLevel("Сколько будет 2 * 8?", 16, Patrick);
-// }
+function iLoveMath (){
+    CreateTextLevel("Сколько будет 2 * 8?", 16, iLoveGeography);
+}
 
-// function iLoveGeography () {
-//     CreateTextLevel("Какая столица Грузии?", "Тбилиси", kirill);
-// }
+function iLoveGeography () {
+    CreateTextLevel("Какая столица Грузии?", "Тбилиси", kirill);
+}
 
-// function kirill () {
-//     CreateTextLevel("Кирилл лох?", "да", null);
-// }
+function kirill () {
+    CreateTextLevel("Кирилл лох?", "да", null);
+}

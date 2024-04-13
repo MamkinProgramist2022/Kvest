@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     width: 60%; /* 60 процентов от всей страниы */
     min-height: 400px; /* Но минимально высота будет 400px */
     /* выравниваем все элементы внутри тела по центру: */
@@ -13,9 +13,10 @@ body {
 
 .start {
     border: none;
-    background-color: bisque;
+    background-color: black;
     padding: 10px 15px;
     cursor:pointer;
+    color: white;
 }
 
 input {
