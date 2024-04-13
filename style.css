@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    width: 60%; /* 60 процентов от всей страниы */
+    min-height: 400px; /* Но минимально высота будет 400px */
+    /* выравниваем все элементы внутри тела по центру: */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; /* по горизонтали */
+    align-items: center; /* по вертикали */
+    margin: auto; /* выравниваем сам body по центру всей страницы */
+}
+
+.start {
+    border: none;
+    background-color: bisque;
+    padding: 10px 15px;
+    cursor:pointer;
+}
+
+input {
+    outline: none;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
